@@ -1,19 +1,19 @@
 Instance Variables:
-1. `model` (ประเภท: String) - เก็บข้อมูลรุ่นของ AirPurifier.
-2. `price` (ประเภท: int) - เก็บข้อมูลราคาของ AirPurifier.
-3. `colour` (ประเภท: String) - เก็บข้อมูลสีของ AirPurifier.
-4. `turnOn` (ประเภท: boolean) - เก็บสถานะการเปิด/ปิดของ AirPurifier.
-5. `fanspeed` (ประเภท: int) - เก็บข้อมูลระดับความเร็วของพัดลม.
-6. `temperature` (ประเภท: int) - เก็บข้อมูลอุณหภูมิที่ตั้งค่าไว้.
+1. `model` (String) - เก็บข้อมูลรุ่นของ AirPurifier.
+2. `price` (int) - เก็บข้อมูลราคาของ AirPurifier.
+3. `colour` (String) - เก็บข้อมูลสีของ AirPurifier.
+4. `turnOn` (boolean) - เก็บสถานะการเปิด/ปิดของ AirPurifier.
+5. `fanspeed` (int) - เก็บข้อมูลระดับความเร็วของพัดลม.
+6. `temperature` (int) - เก็บข้อมูลอุณหภูมิที่ตั้งค่าไว้.
 
 Instance Methods:
 1. `AirPurifier` (Constructor) - ใช้สำหรับกำหนดค่าเริ่มต้นของ object AirPurifier ด้วยรุ่น (model), ราคา (price), และสี (colour).
-2. `getFanspeed` (ประเภท: int) - คืนค่าระดับความเร็วของพัดลม.
-3. `setFanspeed` (ประเภท: void) - กำหนดระดับความเร็วของพัดลมโดยมีเงื่อนไขการตั้งค่า.
-4. `toString` (ประเภท: String) - สร้างและคืนค่า String ที่แสดงข้อมูลทั้งหมดของ AirPurifier.
-5. `isTurnOn` (ประเภท: boolean) - คืนค่าสถานะการเปิด/ปิดของ AirPurifier.
-6. `setTurnOn` (ประเภท: void) - กำหนดสถานะการเปิด/ปิดของ AirPurifier พร้อมกับการตั้งค่าพัดลมและอุณหภูมิ.
-7. `getTemperature` (ประเภท: int) - คืนค่าอุณหภูมิที่ตั้งค่า.
-8. `setTemperature` (ประเภท: void) - กำหนดค่าอุณหภูมิโดยมีเงื่อนไขการตั้งค่า.
-9. `manual` (ประเภท: void) - แสดงข้อมูลคู่มือการใช้งานของ AirPurifier.
+2. `getFanspeed` (int) - คืนค่าระดับความเร็วของพัดลม.
+3. `setFanspeed` (void) - กำหนดระดับความเร็วของพัดลมโดยมีเงื่อนไขการตั้งค่า.
+4. `toString` (String) - สร้างและคืนค่า String ที่แสดงข้อมูลทั้งหมดของ AirPurifier.
+5. `isTurnOn` (boolean) - คืนค่าสถานะการเปิด/ปิดของ AirPurifier.
+6. `setTurnOn` (void) - กำหนดสถานะการเปิด/ปิดของ AirPurifier พร้อมกับการตั้งค่าพัดลมและอุณหภูมิ.
+7. `getTemperature` (int) - คืนค่าอุณหภูมิที่ตั้งค่า.
+8. `setTemperature` (void) - กำหนดค่าอุณหภูมิโดยมีเงื่อนไขการตั้งค่า.
+9. `manual` (void) - แสดงข้อมูลคู่มือการใช้งานของ AirPurifier.
 
